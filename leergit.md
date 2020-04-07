@@ -29,3 +29,12 @@ la segunda vez para enviar a github
 git push 
 git pull        comparar archivos en github y trae archivos en nuestro archivos locales
 ------------------------ 
+
+Tag para versionar  nuestra app cuando llegue a un punto en especifico de desarrollo
+git tag ver1.0 -m "Version 1.0"
+---------------------------------
+para ver en console lo que se ha echo en nuestro historial de cambios
+log --oneline
+---------------------------------
+para pasar ir al momento del cambio en el historial de cambios mediante este comando
+git reset --hard [el codigo mostrado en log --oneline]
