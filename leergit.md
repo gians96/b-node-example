@@ -27,3 +27,5 @@ git push -u origin master
 -------------------------
 la segunda vez para enviar a github
 git push 
+git pull        comparar archivos en github y trae archivos en nuestro archivos locales
+------------------------
