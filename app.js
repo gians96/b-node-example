@@ -16,13 +16,13 @@ app.use(express.urlencoded({ extended: true }));
 // Middleware para Vue.js router modo history
 const history = require('connect-history-api-fallback');
 app.use(history());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public'))); 
 
 // Rutas
 app.get('/index', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello Woasdasrld!');
 });
-
+  
 
 
 
