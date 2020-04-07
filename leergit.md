@@ -23,3 +23,7 @@ git remote add origin https://github.com/gians96/b-node-example.git
 
 para enviar al repositorio de github
 git push -u origin master
+
+-------------------------
+la segunda vez para enviar a github
+git push 
