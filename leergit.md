@@ -41,3 +41,12 @@ git log --oneline
 ---------------------------------
 para pasar ir al momento del cambio en el historial de cambios mediante este comando
 git reset --hard [el codigo mostrado en log --oneline]
+
+
+
+
+-------------------------------------------------------------
+BRANCH
+
+lineas de tiempo paralela que despues queremos juntar
+--------------------------------------------------------------
