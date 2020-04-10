@@ -50,3 +50,21 @@ BRANCH
 
 lineas de tiempo paralela que despues queremos juntar
 --------------------------------------------------------------
+
+-----------------------
+HEROKU
+-----------------------
+trabajar con heroku es un ambiente o servidor establecido para publicar nuestro proyectos
+
+para iniciar neceistamos instalar heroku cli descargar la misma pagina
+(reinicar)
+lo siguiente es el comando
+heroku login
+
+de alli establecer en que proyecto se va a guardar en heroku, donde ya previamente abremos creado uno.
+ para establecer la ruta de conexicon
+heroku git:remote -a [nombre del proyecto]
+
+con esto podremos mandar lo ya contenido en el commit local
+
+git push heroku master
