@@ -2,6 +2,14 @@ import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
 import path from 'path';
+import mongoose from 'mongoose';
+
+const uri='mongodb://localhost:27017/udemy';
+mongoose.connect(uri,options).then(
+  ()=>{ console.log('conectado a mongoDB')},
+  err=> {err}
+)
+
 
 const app = express();
 
